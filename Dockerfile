@@ -1,5 +1,7 @@
 FROM gliderlabs/alpine:3.3
 
+MAINTAINER arnaudsj@gmail.com
+
 # Build dependencies
 RUN apk --update add --no-cache --virtual=build-dependencies wget ca-certificates bash
 
